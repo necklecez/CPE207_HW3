@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" sizes="192x192" href="img/unicorn.png">
+
+  <title>North - Rattatammanoon Niwanti</title>
+  <!-- 
+Magazee Template 
+http://www.templatemo.com/tm-514-magazee
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/templatemo-style.css"> <!-- Templatemo style -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script>
+    var renderPage = true;
+
+    if (navigator.userAgent.indexOf('MSIE') !== -1
+      || navigator.appVersion.indexOf('Trident/') > 0) {
+      /* Microsoft Internet Explorer detected in. */
+      alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+      renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <table style="widows: 0%" align="center">
+      <tr>
+        <th>
+          <a class="navbar-brand" href="Gallery.html">Gallery</a>
+        </th>
+        <th>
+          <a class="navbar-brand" href="index.html">Home</a>
+        </th>
+        <th>
+          <a class="navbar-brand" href="Contact.html">Contact</a>
+        </th>
+      </tr>
+    </table>
+  </nav>
+
+
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="container">
+
+    <!-- 1st section -->
+    <section class="row tm-section">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+        <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+          <h1 class="tm-text-color-white tm-site-name">Contact</h1>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="tm-flex-center p-5">
+          <q class="tm-quote tm-text-color-gray"> Working hard is important. But there is something that matters even
+            more, believing in yourself. - Harry Potter
+          </q>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2nd section -->
+    <section class="row tm-section tm-col-md-reverse">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+        <div class="tm-flex-center p-5">
+          <div class="tm-md-flex-center">
+            <h2 class="tm-text-color-primary mb-4">Home</h2>
+            <p class="mb-4">Chances are there for those who could see them.</p>
+            <a href="index.html" class="btn btn-primary float-lg-right tm-md-align-center">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+        <div class="tm-flex-center p-5 tm-bg-color-primary">
+          <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+            <img src="img/image-04.jpg" alt="Image" class="rounded-circle mb-4">
+            <p class="tm-text-color-white small tm-font-thin mb-0">Rattatammanoon Niwanti - North</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3th Section -->
+    <section class="row">
+      <div class="col-lg-12 tm-form-header pl-5 pr-5">
+        <h2 class="tm-container-inner tm-text-color-white">Contact</h2>
+      </div>
+      <div class="col-lg-12 pl-2 pl-sm-3 pl-md-5 pr-2 pr-sm-3 pr-md-5">
+        <form action="Contact.html" id="contact" method="post" class="row tm-container-inner tm-contact-form">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="form-group">
+              <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"
+                required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Full Name"
+                required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="contact_email" name="contact_email" class="form-control" placeholder="Your Email"
+                required />
+            </div>
+            <div class="form-group">
+              <input type="text" id="contact_phone" name="contact_phone" class="form-control" placeholder="Phone"
+                required />
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="form-group">
+              <div class="row">
+                <div class="col-lg-6">
+                  <label>
+                    <input type="radio" id="contact_genderMale" name="gender" value="Male" required> Male
+                  </label>
+                </div>
+                <div class="col-lg-6">
+                  <label>
+                    <input type="radio" id="contact_genderFemale" name="gender" value="Female" required> Female
+                  </label>
+                </div>
+                <div class="col-lg-6">
+                  <label>
+                    <input type="radio" checked id="contact_genderNoGender" name="gender" value="No Gender" required> No Gender
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea id="contact_message" name="contact_message" class="form-control" rows="5" placeholder="Massage"
+                required></textarea>
+            </div>
+          </div>
+          <div class="col-xs-12 mt-4 tm-center">
+            <input id="contact_submit" type="submit" class="btn btn-primary btn-submit" value="Submit">
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-12 tm-bg-color-gray tm-text-color-white tm-font-thin tm-form-footer">
+        <div class="row tm-container-inner">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="tm-footer-info-box">
+              <h4>Present Address</h4>
+              <address>
+                88 M.8 301 Puvara Place<br>
+                Suthep Muang Chiang Mai<br>
+                Chiang Mai 50200
+              </address>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="tm-footer-info-box">
+              <p>Facebook - <a href="https://www.facebook.com/rattatammanoon.niwanti">Rattatammanoon Niwanti</a><br>
+                Github - <a href="https://github.com/Rattatammanoon">Rattatammanoon</a><br>
+                Instagram - <a href="https://www.instagram.com/northratta">northratta</a><br>
+                Tel. - (+66)-871-919691</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4th Section -->
+    <section class="row">
+      <div class="col-lg-12 tm-form-header pl-5 pr-5">
+        <h2 class="tm-container-inner tm-text-color-white">Comment</h2>
+      </div>
+      <table id="titleComment" class="table table-hover">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Gender</th>
+            <th>Massage</th>
+          </tr>
+        </thead>
+        <tbody id="comment_submit"></tbody>
+      </table>
+    </section>
+
+    <!-- Footer -->
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="text-center small tm-copyright-text mb-0">Copyright &copy by Rattatammanoon Niwanti |
+          <a href="mailto:rattatammanoon.niwanti@gmail.com">rattatammanoon.niwanti@gmail.com</a></a></p>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <table style="widows: 0%" align="center">
+      <tr>
+        <th>
+          <a class="navbar-brand" href="Contact.html">Top</a>
+        </th>
+      </tr>
+    </table>
+  </nav>
+
+  <!-- load JS -->
+  <script src="js/jquery-3.2.1.slim.min.js"></script> <!-- https://jquery.com/ -->
+  <script>
+
+    /* DOM is ready
+    ------------------------------------------------*/
+    $(function () {
+
+      if (renderPage) {
+        $('body').addClass('loaded');
+      }
+
+      $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+    });
+
+  </script>
+
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
